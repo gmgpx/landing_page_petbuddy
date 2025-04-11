@@ -36,7 +36,7 @@ export function Footer() {
                                         width: "auto",
                                         height: "auto",
                                     }}
-                                    className='object-contain'
+                                    className='object-contain hover:scale-110'
                                 />
                             </div>
                         ))}
@@ -48,7 +48,7 @@ export function Footer() {
                         <h3 className='text-2xl font-semibold mb-2'>PetBuddy</h3>
                         <p className='mb-4'>Cuidando do seu melhor amigo com amor e dedicação.</p>
                         <a
-                            href={`https://wa.me/`}
+                            href={`https://wa.me/5511999998888?text=${encodeURIComponent(`Gostaria de mais informações.`)}`}
                             className="bg-green-500 hover:bg-green-400 hover:-translate-y-2 transition-transform duration-300 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
                             target='_blank'
                             rel="noopener noreferrer"
@@ -69,21 +69,18 @@ export function Footer() {
                         <h3 className='text-2xl font-semibold mb-2'>Redes Sociais</h3>
                         <div className='flex gap-4'>
                             <a
-                                href="#"
                                 target='_blank'
                                 rel="noopener noreferrer"
                             >
                                 <FacebookLogo className='w-8 h-8 hover:text-gray-100/60' weight="bold" />
                             </a>
                             <a
-                                href="#"
                                 target='_blank'
                                 rel="noopener noreferrer"
                             >
                                 <InstagramLogo className='w-8 h-8 hover:text-gray-100/60' weight="bold" />
                             </a>
                             <a
-                                href="#"
                                 target='_blank'
                                 rel="noopener noreferrer"
                             >

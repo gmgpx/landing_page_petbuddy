@@ -63,10 +63,10 @@ export function About() {
 
                         <a
                             data-aos="fade-up" data-aos-delay="500"
-                            href={`https://wa.me/`}
+                            href={`https://wa.me/5511999998888?text=${encodeURIComponent(`Gostaria de mais informações.`)}`}
                             target='_blank'
                             rel="noopener noreferrer"
-                            className="bg-[#E84C3D] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md hover:-translate-y-2 transition-transform duration-300"
+                            className="bg-[#E84C3D] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md hover:scale-105"
                         >
                             <WhatsappLogo className='w-6 h-6 text-white' />
                             Contato via WhatsApp

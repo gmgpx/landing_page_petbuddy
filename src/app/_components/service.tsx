@@ -102,17 +102,17 @@ export function Service() {
     }
 
     return (
-        <section className="bg-white py-16">
+        <section className="bg-[#E84C3D] py-16">
             <div className="container mx-auto px-4">
 
-                <h2 data-aos="fade-up" className="text-4xl font-bold mb-12">Serviços</h2>
+                <h2 data-aos="fade-up" className="text-4xl font-bold mb-12 text-white">Conheça nossos serviços</h2>
 
                 <div data-aos="fade-up" data-aos-delay="300" className="relative">
                     <div className='overflow-hidden' ref={emblaRef}>
                         <div className='flex'>
                             {services.map((item, index) => (
                                 <div key={index} className='flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)] px-3'>
-                                    <article className='bg-[#1E293B] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col'>
+                                    <article className='bg-[#334155] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col'>
                                         <div className='flex-1 flex items-start justify-between'>
                                             <div>
                                                 <span className='text-3xl'>{item.icon}</span>
@@ -130,12 +130,12 @@ export function Service() {
                                             </div>
 
                                             <a
-                                                href={`https://wa.me/text=Sobre ${item.title}`}
-                                                target='_blank'
+                                                href={`https://wa.me/5511999998888?text=${encodeURIComponent(`Gostaria de mais informações sobre ${item.title}.`)}`}
+                                                target="_blank"
                                                 rel="noopener noreferrer"
-                                                className='flex items-center justify-center gap-2 hover:bg-blue-600 px-4 py-2 rounded-md duration-300'
+                                                className="flex items-center justify-center gap-2 hover:bg-blue-600 px-4 py-2 rounded-md duration-300"
                                             >
-                                                <WhatsappLogo className='w-6 h-6' />
+                                                <WhatsappLogo className="w-6 h-6" />
                                                 Entrar em contato
                                             </a>
 

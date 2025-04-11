@@ -41,8 +41,8 @@ export function Hero() {
                         </a>
 
                         <div className="mt-8">
-                            <p data-aos="fade-up" data-aos-delay="300" className="text-md mb-4">
-                                <b className="bg-black text-white px-2 py-1 rounded-md">5%</b> de desconto na primeira compra
+                            <p data-aos="fade-up" data-aos-delay="300" className="text-xl mb-4">
+                                <strong className="bg-black text-white px-2 py-1 rounded-sm">5%</strong> de desconto na primeira compra!
                             </p>
                         </div>
                     </div>

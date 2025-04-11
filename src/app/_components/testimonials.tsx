@@ -57,7 +57,7 @@ export function Testmonials() {
         <section className="bg-[#FFD449] py-16">
             <div className="container mx-auto px-4">
 
-                <h2 data-aos="fade-up" className="text-4xl font-bold text-center mb-12">Clientes satisfeitos, pets felizes!</h2>
+                <h2 data-aos="fade-up" className="text-4xl font-bold text-center italic mb-12">Clientes satisfeitos, pets felizes!</h2>
 
                 <div data-aos="fade-up" data-aos-delay="300" className="relative max-w-4xl mx-auto">
 
@@ -65,7 +65,7 @@ export function Testmonials() {
                         <div className='flex'>
                             {testimonials.map((item, index) => (
                                 <div key={index} className='flex-[0_0_100%] min-w-0 px-3'>
-                                    <article className='bg-[#1E293B] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col'>
+                                    <article className='bg-[#334155] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col'>
                                         <div className='flex flex-col items-center text-center space-y-4'>
                                             <div className='relative w-24 h-24'>
                                                 <Image
@@ -78,7 +78,7 @@ export function Testmonials() {
                                                 />
                                             </div>
 
-                                            <p className='text-gray-200'>{item.content}</p>
+                                            <p className='text-gray-200 italic'>"{item.content}"</p>
 
                                             <div>
                                                 <p className='font-bold'>{item.author}</p>
